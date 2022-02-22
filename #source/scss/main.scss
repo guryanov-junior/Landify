@@ -1,0 +1,402 @@
+// Intro styles start
+
+.intro {
+	background: url('../../img/main/intro/bg.jpg') no-repeat center;
+	background-size: cover;
+	width: 100%;
+}
+
+.intro__wrapper {
+	position: relative;
+}
+.intro__title {
+	width: 730px;
+	padding-top: 240px;
+	padding-bottom: 48px;
+}
+.intro__title-text {
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 98px;
+	color: #18191F;
+
+}
+
+.intro__button {
+	padding-bottom: 336px;
+}
+
+.intro__button-link {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	padding: 16px 41px;
+	background: #8C30F5;
+	border-radius: 8px;
+	transition: 0.2s all;
+		&:hover, &:focus, &:active {
+			background: #561E97;
+		}
+}
+
+.title__phone-image {
+	img {
+		position: absolute;
+		top: 168px;
+		right: 0;
+	}
+}
+
+// Intro styles end
+
+
+
+// Logo-cloud styles start
+
+.logo-cloud__line {
+	width: 1110px;
+	height: 1px;
+	margin: 16px auto;
+	background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}
+
+.logo-cloud__items {
+	margin: 8px 109.5px;
+	display: flex;
+	justify-content: space-between;
+		a {
+			padding: 17px 0;
+			transition: 0.2s all;
+			&:hover {
+				transform: scale(1.2);
+			}
+		}
+}
+
+// Logo-cloud styles end
+
+
+
+// Features styles start
+
+.features__title {
+	text-align: center;
+	padding-top: 64px;
+	margin-bottom: 8px;
+}
+
+.title {
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	color: #18191F;
+}
+
+.features__subtitle {
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.subtitle {
+	font-size: 18px;
+	line-height: 32px;
+	color: #18191F;
+}
+
+.features__items {
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	row-gap: 64px;
+	column-gap: 30px;
+	padding-bottom: 64px;
+	display: -ms-grid;
+  -ms-grid-columns: 32% 20px 32% 20px 32%;
+  -ms-grid-rows: auto 20px auto 20px auto;
+}
+
+.features__item {
+	text-align: center;
+}
+
+.features__item-image {
+	margin-bottom: 24px;
+}
+
+.features__item-title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 32px;
+	color: #18191F;
+	margin-bottom: 8px;
+}
+
+.features__item-subtitle {
+	font-size: 16px;
+	line-height: 26px;
+	color: #18191F;
+}
+
+// Features styles end
+
+
+
+// Stories styles start
+
+.stories {
+	background: #D5FAFC;
+	position: relative;
+	
+}
+
+.stories__header {
+	padding: 120px 0 608px 260px;
+}
+
+.stories__title {
+	width: 445px;
+	margin-bottom: 8px;
+}
+
+.stories__item-hubspot {
+	width: 350px;
+	position: absolute;
+	top: 312px;
+	left: 355px;
+}
+
+.item {
+	background: #FFFFFF;
+	box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+	border-radius: 8px;
+	}
+
+.logo {
+	margin: 32px;
+}
+
+.content {
+	margin: 0 32px 32px 32px;
+	padding-left: 32px;
+	background: url('../../img/main/stories/SVG/Quote-Mark.svg') no-repeat left top;
+}
+
+.text {
+	font-size: 18px;
+	line-height: 32px;
+	color: #18191F;
+	margin-bottom: 24px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 28px;
+	color: #18191F;
+
+}
+
+.position {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 24px;
+	color: #969BAB;
+}
+
+.stories__item-airbnb {
+	width: 445px;
+	position: absolute;
+	top: 168px;
+	left: 735px;
+}
+
+.stories__item-bookshow {
+	width: 350px;
+	position: absolute;
+	top: 540px;
+	left: 735px;
+}
+
+.stories__bg-image {
+	position: absolute;
+	top: 64px;
+	left: 165px;
+}
+
+// Stories styles end
+
+
+
+// Achievements styles start
+
+.achievements__body {
+	margin: 82px 0;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	column-gap: 30px;
+}
+
+.achievements__title {
+	margin-bottom: 8px;
+}
+
+.achievements__cards {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	row-gap: 40px;
+	column-gap: 30px;
+}
+
+.achievements__card {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.achievements__card-info {
+	margin-left: 16px;
+}
+
+.number {
+	font-weight: 800;
+	font-size: 28px;
+	line-height: 40px;
+	color: #18191F;
+}
+
+.desc {
+	font-size: 16px;
+	line-height: 26px;
+	color: #18191F;
+}
+
+// Achievements styles end
+
+
+
+// Headline styles start
+
+.headline__body {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	column-gap: 30px;
+	align-items: center;
+	margin-bottom: 64px;
+}
+
+.headline__image {
+	border-radius: 8px;
+}
+
+.headline__content {
+	padding: 0 48px;
+}
+
+.headline__content-title {
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 54px;
+	color: #18191F;
+	margin-bottom: 32px;
+}
+
+.headline__content-subtitle {
+	font-size: 18px;
+	line-height: 32px;
+	color: #18191F;
+	margin-bottom: 32px;
+}
+
+.headline__content-link {
+		a {
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 30px;
+			color: #8C30F5;
+			padding-right: 32px;
+			background: url('../../img/main/headline/SVG/right-arrow.svg') no-repeat right center;
+			transition: 0.2s all;
+			&:hover, &:focus, &:active {
+				opacity: .85;
+				padding-right: 40px;
+			}
+		}
+}
+
+// Headline styles end
+
+
+
+// Trends styles start
+
+.trends__header {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	column-gap: 30px;
+	margin-bottom: 54px;
+}
+
+.trends__title {
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 54px;
+	color: #18191F;
+}
+
+.trends__subtitle {
+	font-size: 18px;
+	line-height: 32px;
+	color: #18191F;
+}
+
+.trends__image {
+	margin-bottom: 64px;
+}
+
+// Trends styles end
+
+
+
+// Managing styles start
+
+.managing {
+	background: #2EC5CE;
+	position: relative;
+	overflow: hidden;
+}
+
+.managing__title {
+	width: 540px;
+	padding-top: 68px;
+	margin-bottom: 8px;
+}
+
+.managing__subtitle {
+	width: 540px;
+	margin-bottom: 48px;
+}
+
+.managing__offer {
+	margin-bottom: 8px;
+}
+
+.managing__links {
+	padding-bottom: 67px;
+}
+
+.managing__image-first {
+	position: absolute;
+	left: 779px;
+	top: 0;
+	filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+
+.managing__image-second {
+	position: absolute;
+	top: 88px;
+	left: 1043px;
+	filter: drop-shadow(10px 15px 30px rgba(41, 41, 42, 0.5));
+}
+
+// Managing styles end

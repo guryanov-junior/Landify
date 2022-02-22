@@ -1,0 +1,66 @@
+// Footer styles start
+
+.footer {
+	background: #0B0D17;
+}
+
+.footer__body {
+	padding: 56px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer__content {
+	a {
+		font-size: 16px;
+		line-height: 26px;
+		color: #fff;
+		transition: 0.2s all;
+		&:hover, &:focus, &:active {
+			opacity: 0.75;
+		}
+	}
+}
+
+.footer__content-logo {
+	margin-bottom: 24px;
+}
+
+.footer__content-links {
+	margin-bottom: 12px;
+	a {
+		margin-right: 24px;
+	}
+}
+
+.footer__content-nav {
+	margin-bottom: 24px;
+}
+
+.footer__content-item {
+	display: inline;
+	a {
+		margin-right: 24px;
+	}
+}
+
+.footer__content-trademark {
+	font-size: 14px;
+	line-height: 24px;
+	color: #D9DBE1;
+}
+
+.footer__offer-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 28px;
+	color: #D9DBE1;
+	margin-bottom: 16px;
+}
+
+.footer__offer-apple-button {
+	margin-bottom: 16px;
+}
+
+// Footer styles end
