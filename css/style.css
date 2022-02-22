@@ -200,7 +200,7 @@ h6 {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 500;
-  src: url('../../fonts/manrope-v3-latin-500.eot');
+  src: url('../fonts/manrope-v3-latin-500.eot');
   /* IE9 Compat Modes */
   src: local(''),
     url('../fonts/manrope-v3-latin-500.eot?#iefix') format('embedded-opentype'),
