@@ -8,7 +8,7 @@
 
 ## Description
 
-#### An example of site layout according to the layout using Adobe Photoshop
+#### An example of adaptive and responsive site layout according to the layout using Adobe Photoshop
 
 </br>
 
